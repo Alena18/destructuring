@@ -52,10 +52,10 @@ console.log(others);
 let favouriteFoods = {
     brian: "pizza",
     anna: "pasta",
-    sarah; "vegeterian",
+    sarah: "vegeterian",
     andrew: "steak"
 };
-let {brian, anna, ...rest};
+let {brian, anna, ...rest} = favouriteFoods;
 console.log(brian);
 console.log(anna);
 console.log(...rest);
